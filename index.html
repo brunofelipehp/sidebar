@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link 
+ href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" 
+ rel="stylesheet"
+>
+  <link rel="stylesheet" href="./style.css">
+  <title>Sidebar</title>
+</head>
+<body>
+  
+    <aside class="sidebar">
+      <section class="top">
+        <div id="logo"><img src="./assets/logo.svg" alt="logo"></div>
+        <div id="toggle">
+          <i>
+            <img src="./assets/menu.svg" alt="Botão">
+          </i>
+        </div>
+      </section>
+  
+      <section class="menu">
+        <nav>
+          <ul>
+            <li>
+              <input type="text" name="buscar" id="search" placeholder="Buscar">
+            </li>
+  
+            <li>
+                
+              <a href="">
+                <img src="./assets/grid.svg" alt="dashboard">
+                <p>
+                  Dashboard
+                </p>
+              </a>
+            </li>
+          
+            <li>
+                
+              <a href="">
+                <img src="./assets/pet.svg" alt="Pets">
+                <p>Pets</p>
+              </a>
+            </li>
+    
+            <li>     
+              <a href="">
+                <img src="./assets/user.svg" alt="clientes">
+                <p>Clientes</p>
+              </a>
+            </li>
+  
+            <li>
+              
+              <a href="">
+                <img src="./assets/vet.svg" alt="Vets">
+                <p>Vets</p>
+              </a>
+            </li>
+    
+            <li>             
+            <a href="">
+              <img src="./assets/settings.svg" alt="Ajustes">
+              <p>Ajustes</p>
+            </a>
+          </li>
+          </ul>
+        </nav>
+        <div id="user">
+          <img src="./assets/photo.jpg" alt="foto do usuario" class="photo">
+          <div class="text-user">
+            <p id="name">Eleanor Pena</p>
+            <p id="profession">Veterinária</p>
+          </div>
+          <i id="logout"><img src="./assets/log-out.svg" alt="logout"></i>
+        </div>
+      </section>
+      
+       
+    </aside>
+    <main>
+      <h1>Dashboard</h1>
+    </main>
+
+ 
+
+  <script src="./main.js" type="text/javascript"></script>
+</body>
+</html>
