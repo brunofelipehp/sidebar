@@ -42,18 +42,26 @@ body {
 
 .sidebar .top #logo {
   margin-top: 1.5rem;
-  margin-bottom: 1.62rem;
+  margin-bottom: 1.62rem; 
+}
+
+.sidebar .top #logo img {
   width: 4rem;
-  height: 1.57rem;
-  
+  height: 1.57rem; 
 }
 
 .sidebar .top #toggle {
-  margin-top: 1.62rem;
+  margin-top: 1.62rem;  
+  margin-bottom: 1.62rem;
+
+  border: none;
+  background: var(--green);
+  cursor: pointer;
+}
+
+.sidebar .top #toggle img {
   height: 1.5rem;
   width: 1.5rem;
-  margin-bottom: 1.62rem;
-  cursor: pointer;
 }
 
 /* ======================== MENU  ======================== */
@@ -155,15 +163,18 @@ section.menu {
     width: 6.125rem;
   }
 
-  .menu div#user i#logout {
+  .menu div#user button#logout {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
+    background: var(--light-green);
+    cursor: pointer;
+  }
 
+  .menu div#user button#logout img {
     height: 1.5rem;
     width: 1.5rem;
-    margin-right: 0.875rem;
-    cursor: pointer;
   }
 
   /* ======================= MAIN ====================== */
